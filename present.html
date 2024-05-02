@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculators</title>
+    <link rel="stylesheet" href="present.css">
+    <div class="containerone">
+        <div class="header">
+            <h1>Financial Calculator</h1>
+        </div>
+        <div class="navpageslist">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mortgage.html">Mortgage Calculator</a></li>
+                    <li><a href="compound.html"> compound Calculator </a></li>
+                    <li><a href="present.html">Present Value Calculator</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+</head>
+
+<body>
+    <div class="calculator-container">
+        <div class="calculator-box">
+            <h2>Present Value Of Annuity Calculator<br></h2>
+            <label for="payment Amount">Payment Amount:</label>
+            <input type="number" id="paymentAmount" placeholder="Payment Amount"><br>
+
+            <label for="interestRateE">Interest Rate (%):</label>
+            <input type="number" id="interestRateE" placeholder="Interest Rate"><br>
+
+            <label for="loanTerm">Number of (years):</label>
+            <input type="number" id="N" placeholder="Years"><br></input>
+
+            <button onclick="calculatePresentValue()">Calculate</button><br>
+
+            <label for="PresentValue">Present Value of Annuity:</label>
+            <input type="number" id="PresentValue"><br>
+        </div>
+    </div>
+    <script src="strict.js"></script>
+</body>
+
+</html>

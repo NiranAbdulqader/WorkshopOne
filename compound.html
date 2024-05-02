@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Calculator</title>
+    <link rel="stylesheet" href="compound.css">
+</head>
+
+<body>
+
+    <div class="containerone">
+        <div class="navpageslist">
+            <h1>Financial Calculator</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mortgage.html">Mortgage Calculator</a></li>
+                    <li><a href="compound.html"> compound Calculator</a></li>
+                    <li><a href="present.html">Present Value Calculator</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="calculator-container">
+        <div class="calculator-box">
+            <h2>Compound Interest Calculator<br></h2>
+            <label for="Deposit">One-Time Deposit:</label>
+            <input type="number" id="Deposit" placeholder="Deposit"><br>
+
+            <label for="interestRateC">Interest Rate (%):</label>
+            <input type="number" id="interestRateC" placeholder="Interest Rate"><br>
+
+            <label for="years">Number of (years):</label>
+            <input type="number" id="years" placeholder="years"><br>
+
+            <button onclick="calculateFutureValue()">Calculate</button><br>
+
+            <label for="future value">Future Value:</label>
+            <input type="number" id="FutureValue"><br>
+
+            <label for="TotalInterest">Total Interest Earned:</label>
+            <input type="number" id="TotalInterestC">
+
+        </div>
+    </div>
+
+    <script src="strict.js"></script>
+</body>
+
+</html>
